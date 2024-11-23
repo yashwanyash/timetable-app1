@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>College_Time_Table</title>
+    <style>
+      body {
+        background-color: rgb(235, 247, 2);
+        margin: 0;
+      }
+      section {
+        margin-top: 60px;
+      }
+      header {
+        text-align: center; 
+        padding: 5px;
+        background-color: rgb(192, 27, 192);
+        color: white;
+      }
+      
+      .button {
+        background-color: rgb(153, 247, 228);
+        color: black;
+        height: 100px;
+        width: 200px;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 33px;
+        border: solid black;
+        margin: 20px 0;
+        border-style: dotted;
+        border-width: thick;
+      }
+      h1 {
+        font-family: Arial, sans-serif; 
+        font-size: 48px;
+      }
+
+      @media (max-width: 768px) {
+        h1 {
+          font-size: 36px;
+        }
+      }
+
+      @media (max-width: 480px) {
+        h1 {
+          font-size: 28px;
+        }
+      }
+      /* Center-align buttons and adjust layout for smaller screens */
+      .buttons-container {
+        text-align: center;
+      }
+
+      /* Adjust button width on smaller screens */
+      @media (max-width: 768px) {
+        .button {
+          width: 160px;
+          height: 80px;
+          font-size: 28px;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .button {
+          width: 140px;
+          height: 70px;
+          font-size: 24px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <header>
+        <h1>Seshadripuram Academy Of Business Studies</h1>
+      </header>
+      <section style="text-align: center">
+        <h1>Time Table</h1>
+      </section>
+    </div>
+    <div class="buttons-container">
+      <button class="button "onclick="window.location.href='course.html'">
+        STUDENT</button>
+    </div>
+    <div class="buttons-container"> 
+      <a href="login.html">
+        <button class="button">STAFF</button>
+      </a>       
+    </div>
+  </body>
+</html>
